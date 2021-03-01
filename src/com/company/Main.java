@@ -75,12 +75,15 @@ public class Main {
         int a = -1;
 
         if (a > 0) {
-            System.out.println("Число положительное");
+            System.out.println("Число положительное!");
         } else if (a < 0) {
-            System.out.println("Число отрицательное");
+            System.out.println("Число отрицательное!");
         } else {
             System.out.println("0!");
         }
+
+        System.out.println("Тернарный оператор: " + ((a > 0) ? "Число положительное!" : "Число отрицательное!"));
+
 
 
     }
